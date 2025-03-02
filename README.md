@@ -6,11 +6,11 @@ Lab 2 for Spring 25 Data Structures
 Referring to the algorithm you implemented in the function **monotonic** in the
 file **edit_me.py** and assuming that the input list has length **N**,
 
-* the big-O worst-case complexity is PUT YOUR ANSWER HERE, and
-* the big-O best-case complexity is PUT YOUR ANSWER HERE.
+* the big-O worst-case complexity is O(n), and
+* the big-O best-case complexity is 0(n).
 
 Referring to the code block below,
-* the big-O worst-case complexity of the function **search** is PUT YOUR ANSWER HERE.
+* the big-O worst-case complexity of the function **search** is 0(log n)
   ```python
   def search(lst, key):
 
@@ -43,6 +43,5 @@ Notes:
 
 #### Critique
 
-I would use the function **search** (defined above) in real life because COMPLETE OR DELETE THIS SENTENCE.
+I would use the function **search** (defined above) in real life because it utilizes a useful binary search algorithim.
 
-I would not use the function **search** in real life because OR COMPLETE OR DELETE THIS SENTENCE.
